@@ -12,7 +12,7 @@ import { ApolloProvider } from "react-apollo";
 
 const client = new ApolloClient({
   link: new WebSocketLink({
-    uri: `wss://redux-style-backend.herokuapp.com/v1alpha1/graphql`,
+    uri: `wss://graphql-redux-demo.herokuapp.com/v1alpha1/graphql`,
     options: {
       reconnect: true
     }
